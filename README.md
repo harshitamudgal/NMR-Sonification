@@ -1,12 +1,12 @@
 # NMR Sonification: *Signals in the Static*
-
+___
 **Can a protein's chemical shifts become an alt-indie rock track?** This project turns paired backbone amide \(^{1}\mathrm{H}\) and \(^{15}\mathrm{N}\) chemical-shift values into an original instrumental composition.
 
 🎧 **Listen to the track:** [Signals in the Static — MP3](./Signals_in_the_Static_NMR_music.mp3)
 
 ## The idea
 
-Built for **BT4408 Structural Biology — Assignment 2**, this piece uses the supplied `6457_simulated_hsqc_backbone.csv` dataset: 72 paired backbone-amide entries associated with human ubiquitin (BMRB entry 6457).
+Built for **Structural Biology Assignment **, this piece uses the `6457_simulated_hsqc_backbone.csv` dataset: 72 paired backbone-amide entries associated with human ubiquitin (BMRB entry 6457).
 
 Instead of treating the values as ordinary numbers, the project maps them into a musical pitch sequence:
 
@@ -22,12 +22,8 @@ Instead of treating the values as ordinary numbers, the project maps them into a
 - **Tempo:** 110 BPM, 4/4 time
 - **Musical structure:** Verse/chorus-style arrangement with recurring hooks
 
-The mapping is a creative sonification method, not a biological prediction. The chord progression, rhythm, sound design, and repeated hooks are compositional choices. The input CSV is labelled *simulated*, so its values are used as supplied rather than presented as independently verified experimental peaks.
-
 ## Reference
 
 - **Biological Magnetic Resonance Data Bank (BMRB), entry 6457 — Human ubiquitin:** [bmrb.io/data_library/summary/?bmrbId=6457](https://bmrb.io/data_library/summary/?bmrbId=6457)
 
 ---
-
-*Signals in the Static* is a small experiment at the intersection of structural biology, data sonification, and music: a way to listen to a dataset, while remembering that the melody is an artistic mapping rather than the protein “singing” literally.
